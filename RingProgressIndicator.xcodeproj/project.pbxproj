@@ -12,6 +12,8 @@
 		ADB445F422B90AD600E1C16D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADB445F222B90AD600E1C16D /* Main.storyboard */; };
 		ADB445F622B90ADE00E1C16D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADB445F522B90ADE00E1C16D /* Assets.xcassets */; };
 		ADB445F922B90ADE00E1C16D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADB445F722B90ADE00E1C16D /* LaunchScreen.storyboard */; };
+		ADB4460722BA399100E1C16D /* BadgeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB4460622BA399100E1C16D /* BadgeView.swift */; };
+		ADB4460922BA39D000E1C16D /* RingProgressable.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB4460822BA39D000E1C16D /* RingProgressable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		ADB445F522B90ADE00E1C16D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ADB445F822B90ADE00E1C16D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ADB445FA22B90ADE00E1C16D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADB4460622BA399100E1C16D /* BadgeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeView.swift; sourceTree = "<group>"; };
+		ADB4460822BA39D000E1C16D /* RingProgressable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RingProgressable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				ADB445F522B90ADE00E1C16D /* Assets.xcassets */,
 				ADB445F722B90ADE00E1C16D /* LaunchScreen.storyboard */,
 				ADB445FA22B90ADE00E1C16D /* Info.plist */,
+				ADB4460622BA399100E1C16D /* BadgeView.swift */,
+				ADB4460822BA39D000E1C16D /* RingProgressable.swift */,
 			);
 			path = RingProgressIndicator;
 			sourceTree = "<group>";
@@ -135,7 +141,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADB4460722BA399100E1C16D /* BadgeView.swift in Sources */,
 				ADB445F122B90AD600E1C16D /* ViewController.swift in Sources */,
+				ADB4460922BA39D000E1C16D /* RingProgressable.swift in Sources */,
 				ADB445EF22B90AD600E1C16D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
